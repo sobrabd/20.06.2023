@@ -1,0 +1,11 @@
+{% extends "dogs/base.html" %}
+
+    {% block content %}
+    <h1>Собаки</h1>
+    {% for dog in dogs %}
+    <p>
+        {{dog.name}}
+        {{dog.specie}}
+    </p>
+    {% endfor %}
+   {% endblock %}

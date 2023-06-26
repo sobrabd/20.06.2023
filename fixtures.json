@@ -1,0 +1,56 @@
+[
+    {
+        "model": "dogs.dog",
+        "pk": 1,
+        "fields": {
+            "name": "джим",
+            "specie": 1,
+            "image": "",
+            "birthdate": "2023-06-01"
+        }
+    },
+    {
+        "model": "dogs.dog",
+        "pk": 2,
+        "fields": {
+            "name": "шарик",
+            "specie": 2,
+            "image": "",
+            "birthdate": "2023-06-24"
+        }
+    },
+    {
+        "model": "dogs.dog",
+        "pk": 3,
+        "fields": {
+            "name": "рекс",
+            "specie": 3,
+            "image": "",
+            "birthdate": "2023-06-25"
+        }
+    },
+    {
+        "model": "dogs.spice",
+        "pk": 1,
+        "fields": {
+            "title": "овчарка",
+            "description": "описание овчарки"
+        }
+    },
+    {
+        "model": "dogs.spice",
+        "pk": 2,
+        "fields": {
+            "title": "пудель",
+            "description": "описание пуделя"
+        }
+    },
+    {
+        "model": "dogs.spice",
+        "pk": 3,
+        "fields": {
+            "title": "бульдог",
+            "description": "описание бульдог"
+        }
+    }
+]
